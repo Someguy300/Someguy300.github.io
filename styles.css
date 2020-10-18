@@ -42,7 +42,6 @@ body,html{
     no estuviera detras del navbar*/
     margin-top: 23px;
     padding-top: 23px;
-    background-color: aqua;/* Color para testear */
 }
 
 
@@ -114,8 +113,66 @@ body,html{
   
 /*Fin Galeria Hero*/
 
+/*Experience*/
+.proyecto {
+    margin: 1px;
+    padding: 10px;
+    height: 15em;
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
 
-  
+.experience{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contenido-proyecto{
+    opacity: 0.7;
+    border: 1px solid black;
+    background-color: white;
+    height: 100%;
+}
+
+.contenido-proyecto:hover{
+    opacity: 1;
+}
+
+.contenido-proyecto span,h2 {
+    font-weight: bold;
+    color: #000000;
+}
+
+#proyecto1{
+    background-image: url(javaLogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#proyecto2{
+    background-image: url(frontback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#proyecto3{
+    background-image: url(laberinto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*Fin Experience*/
+
 
   
   
