@@ -245,7 +245,7 @@ body,html{
 }
 
 #boton-skills{
-    background-color: #4CAF50; /* Green */
+    background-color: gray; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -260,3 +260,53 @@ body,html{
     color: black;
     background-color: white;
 }
+
+.nombre-contacto{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.metodos-contacto{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email],textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: none
+}
+  
+  
+  input[type=submit] {
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+  
+ 
+  input[type=submit]:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  
+  .contacto-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }

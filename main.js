@@ -100,3 +100,21 @@ function moveJS() {
     }
     document.getElementById("js").innerHTML = obj.skills[2].js+"%";
 }
+
+function mostrarDatos(){
+    var nombre,correo,mensaje;
+    nombre = document.getElementById("nombre");
+    console.log(nombre);
+}
+
+function validateForm() {
+    var name = document.forms["formulario"]["nombre"].value;
+    var mail = document.forms["formulario"]["correo"].value;
+    var mensaje = document.forms["formulario"]["sujeto"].value;
+    console.log(
+        "Nombre: "+name+"\n"+
+        "Correo: "+mail+"\n"+
+        "Mensaje: "+mensaje
+    );
+    alert("su solicitud ha sido enviada");
+  }

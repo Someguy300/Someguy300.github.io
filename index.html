@@ -112,10 +112,33 @@
             <div class="skills-button-div">
                 <button id="boton-skills" onclick="move()">Ve mi progreso</button> 
             </div>
-            
-           
-            
+        </div>
 
+        <div class="contacto">
+            <div class="nombre-contacto">
+                <span>Pedro Luis Barrios</span>
+            </div>
+            <div class="metodos-contacto">
+                <span>Correo: pedro.barrios2017@correo.unimet.edu.ve</span>
+                <br>
+                <span>Telefono: </span>
+                <a href="https://wa.me/584241612170" target="_blank">+58 424-1612170</a>
+            </div>
+    
+            <div class="contacto-form">
+                <form name="formulario" onsubmit="return validateForm()">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="[Inserta tu nombre aqui].." required>
+                
+                    <label for="correo">Correo</label><br>
+                    <input type="email" id="correo" placeholder="[Inserta tu correo aqui]" required>
+                    <br> <br>
+                    <label for="sujeto">Mensaje</label>
+                    <textarea id="sujeto" 
+                    placeholder="[Escribe tu mensaje aqui]" style="height:150px" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+              </div>
         </div>
 
     </div>
