@@ -58,7 +58,7 @@ function moveHTML() {
             }
         }
     }
-    document.getElementById("html").innerHTML = obj.skills[0].html+"%";
+    document.getElementById("html").innerHTML = "HTML: "+obj.skills[0].html+"%";
 }
 
 var x = 0;
@@ -78,7 +78,7 @@ function moveCSS() {
             }
         }
     }
-    document.getElementById("css").innerHTML = obj.skills[1].css+"%";
+    document.getElementById("css").innerHTML = "CSS: "+obj.skills[1].css+"%";
 }
 
 var y = 0;
@@ -98,7 +98,7 @@ function moveJS() {
             }
         }
     }
-    document.getElementById("js").innerHTML = obj.skills[2].js+"%";
+    document.getElementById("js").innerHTML = "JS: "+obj.skills[2].js+"%";
 }
 
 function mostrarDatos(){
