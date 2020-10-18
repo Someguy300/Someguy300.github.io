@@ -1,0 +1,42 @@
+/*Margenes forzados (es una mala practica? no me acuerdo)*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*CSS NAVBAR*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+  
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*CSS para contenido que no sea navbar*/
+.content{
+    width: 100%;
+    /*Force el margen y padding de top para que el contenido
+    no estuviera detras del navbar*/
+    margin-top: 26px;
+    padding-top: 26px;
+    background-color: aqua;/* Color para testear */
+}
+  
+  
