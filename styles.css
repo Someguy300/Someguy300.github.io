@@ -92,6 +92,10 @@ body,html{
     background-color: rgba(0,0,0,0.8);
 }
 
+.ubicacion-puntos{
+    text-align:center;
+}
+
 /* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
