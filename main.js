@@ -107,7 +107,7 @@ function mostrarDatos(){
     console.log(nombre);
 }
 
-function validateForm() {
+function sendForm() {
     var name = document.forms["formulario"]["nombre"].value;
     var mail = document.forms["formulario"]["correo"].value;
     var mensaje = document.forms["formulario"]["sujeto"].value;

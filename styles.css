@@ -148,21 +148,21 @@ body,html{
 }
 
 #proyecto1{
-    background-image: url(javaLogo.png);
+    background-image: url(./expImages/javaLogo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 
 #proyecto2{
-    background-image: url(frontback.jpg);
+    background-image: url(./expImages/frontback.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 #proyecto3{
-    background-image: url(laberinto.jpg);
+    background-image: url(./expImages/laberinto.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;

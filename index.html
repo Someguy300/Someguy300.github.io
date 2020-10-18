@@ -9,10 +9,10 @@
 <body>
     <div class="navbar">
         <a href="#hero">Hero</a>
-        <a href="#experience">Experience</a>
-        <a href="#aboutMe">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#contactMe">Contact Me</a>
+        <a href="#experiencia">Experience</a>
+        <a href="#sobremi">About Me</a>
+        <a href="#habilidades">Skills</a>
+        <a href="#contactame">Contact Me</a>
     </div>
     <div class="content">
 
@@ -43,7 +43,8 @@
             </div>
         </div>
 
-        <div class="experience">
+        <div class="experience" id="experiencia">
+            <h2 >Experiencia</h2>
             <div  id="proyecto1" class="proyecto">
                 <div class="contenido-proyecto">
                     <h2>Proyecto Java SO</h2>
@@ -87,6 +88,7 @@
         </div>
 
         <div class="about">
+            <h2 id="sobremi">About me</h2>
             <div class="img-about"></div>
             <div class="contenido-about">
                 <h2>Sobre mi</h2>
@@ -103,6 +105,7 @@
 
 
         <div class="skills">
+            <h2 id="habilidades">Habilidades lenguajes Web</h2>
             <div id="progreso">
                 <div id="html"></div>
                 <div id="css"></div>
@@ -114,7 +117,8 @@
             </div>
         </div>
 
-        <div class="contacto">
+        <div id="contactame" class="contacto">
+            <h2>Contactame</h2>
             <div class="nombre-contacto">
                 <span>Pedro Luis Barrios</span>
             </div>
@@ -126,7 +130,7 @@
             </div>
     
             <div class="contacto-form">
-                <form name="formulario" onsubmit="return validateForm()">
+                <form name="formulario" onsubmit="return sendForm()">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" placeholder="[Inserta tu nombre aqui].." required>
                 
