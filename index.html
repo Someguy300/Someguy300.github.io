@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="#hero">Hero</a>
+        <a href="#main">Hero</a>
         <a href="#experiencia">Experience</a>
         <a href="#sobremi">About Me</a>
         <a href="#habilidades">Skills</a>
@@ -16,7 +16,7 @@
     </div>
     <div class="content">
 
-        <div class="hero">
+        <div class="hero" id="main">
             <div class="slideshow-container">
                 <div class="hero-text">
                     <h1>Soy Someguy300</h1>
@@ -34,17 +34,20 @@
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="ubicacion-puntos">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
             </div>
             
-            <div class="ubicacion-puntos">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
+            
         </div>
 
         <div class="experience" id="experiencia">
-            <h2 >Experiencia</h2>
+            <h2>Experiencia</h2>
             <div  id="proyecto1" class="proyecto">
                 <div class="contenido-proyecto">
                     <h2>Proyecto Java SO</h2>
@@ -91,15 +94,18 @@
             <h2 id="sobremi">About me</h2>
             <div class="img-about"></div>
             <div class="contenido-about">
-                <h2>Sobre mi</h2>
-                <br>
-                <span>Nombre: Pedro Luis Barrios Paz</span>
-                <br><br>
-                <span>Objetivos a largo plazo: Graduarme</span>
-                <br><br>
-                <span>Objetivos a corto plazo: pasar mis materias este trimestre</span>
-                <br><br>
-                <span>Motivaciones/gustos/etc: Jugar videojuegos</span>
+                <div class="mensaje-about">
+                    <h2>Sobre mi</h2>
+                    <br>
+                    <span>Nombre: Pedro Luis Barrios Paz</span>
+                    <br><br>
+                    <span>Objetivos a largo plazo: Graduarme</span>
+                    <br><br>
+                    <span>Objetivos a corto plazo: pasar mis materias este trimestre</span>
+                    <br><br>
+                    <span>Motivaciones/gustos/etc: Jugar videojuegos</span>
+                </div>
+                
             </div>
         </div>
 
@@ -107,9 +113,9 @@
         <div class="skills">
             <h2 id="habilidades">Habilidades lenguajes Web</h2>
             <div id="progreso">
-                <div id="html"></div>
-                <div id="css"></div>
-                <div id="js"></div>
+                <div id="html">HTML</div>
+                <div id="css">CSS</div>
+                <div id="js">JS</div>
             </div>
             <br>
             <div class="skills-button-div">

@@ -50,6 +50,11 @@ body,html{
     display: none;
 }
 
+.slideshow-container{
+    border-radius: 10px;
+    background-color: wheat;
+}
+
 .imagenes{
     height: 100%;
     width: 100%;
@@ -125,6 +130,11 @@ body,html{
     background-color: cadetblue;
 }
 
+.experience{
+    border-radius: 10px;
+    background-color: darksalmon;
+    text-align: center;
+}
 
 .experience:after {
     content: "";
@@ -178,6 +188,11 @@ body,html{
 /*Fin Experience*/
 
 /*About me*/
+.about{
+    border-radius: 10px;
+    background-color: olivedrab;
+}
+
 .about:after {
     content: "";
     display: table;
@@ -193,52 +208,66 @@ body,html{
     width: 33%;
     height: 15em;
     border-radius: 10px;
-    background-color: #717171;
 }
 
 .contenido-about{
     float: left;
     width: 66%;
-    padding: 2em;
+    padding: 1em;
     height: 15em;
     border-radius: 10px;
-    background-color: #bbb;
+}
+
+.mensaje-about{
+    border-radius: 5px;
+    border: 2px;
+    background-color: teal;
+    padding: 15px;
 }
 /*Fin About me*/
 
 
 /*Skills*/
 
+.skills{
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
 #progreso {
     width: 100%;
     background-color: grey;
+    border-color: black;
 }
   
 #html {
-    width: 2%;
+    width: 0%;
     height: 30px;
     background-color: #4CAF50;
     text-align: center; 
     line-height: 30px; 
     color: white;
+    border: 2px;
 }
 
 #css {
-    width: 2%;
+    width: 0%;
     height: 30px;
     background-color: #2196F3;
     text-align: center; 
     line-height: 30px; 
     color: white;
+    border: 2px;
 }
 
 #js {
-    width: 2%;
+    width: 0%;
     height: 30px;
     background-color: #f44336;
     text-align: center; 
     line-height: 30px; 
     color: white;
+    border: 2px;
 }
   
 .skills-button-div{
@@ -263,15 +292,21 @@ body,html{
     background-color: white;
 }
 
+
+
+
+.contacto{
+    border-radius: 10px;
+    background-color: khaki;
+}
+
 .nombre-contacto{
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 10px;
 }
 
 .metodos-contacto{
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 10px;
 }
 
@@ -309,6 +344,5 @@ input[type=text], input[type=email],textarea {
   
   .contacto-form {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 10px;
   }

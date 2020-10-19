@@ -29,7 +29,7 @@ function showSlides(n) {
 
 
 var valores = '{ "skills" : [' +
-'{"html":50},' +
+'{"html":40},' +
 '{"css":25},' +
 '{"js":10} ]}';
 
@@ -101,11 +101,7 @@ function moveJS() {
     document.getElementById("js").innerHTML = "JS: "+obj.skills[2].js+"%";
 }
 
-function mostrarDatos(){
-    var nombre,correo,mensaje;
-    nombre = document.getElementById("nombre");
-    console.log(nombre);
-}
+
 
 function sendForm() {
     var name = document.forms["formulario"]["nombre"].value;
